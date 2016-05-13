@@ -15,7 +15,7 @@ public class Servidor{
 			Socket cliente = server.accept();
 			PrintWriter salida = new PrintWriter(cliente.getOutputStream(), true);
 			System.out.println("Usuario conectado");
-			salida.println("Bienvenido");
+			salida.println("Bienvenido\nOperadores +, -, * y /. Introduce dos numeros a operar:");
 		}
 
 	}catch(IOException e){

@@ -15,11 +15,22 @@ public class Cliente{
 
 		out.println("get index.html");
 		System.out.println(in.nextLine());
+		System.out.println(in.nextLine());
+		Scanner numero = new Scanner(System.in);
+  		float num1= numero.nextInt(); 
+		float num2= numero.nextInt();
 
 	}catch(IOException e){
 		System.out.println("No hay flujo...");
 	}
 
-	}
+	/*try {
+		Scanner numero = new Scanner(System.in);
+  		float num1= numero.nextInt(); 
+		float num2= numero.nextInt();
+	}catch(IOException e){
+		System.out.println("No hay flujo...");
+	}*/
+}
 
 }
