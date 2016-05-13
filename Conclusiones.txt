@@ -1,0 +1,1 @@
+La conexión se logró pero hubo un error al cachar las variables y mandarlas al servidor, las cuales no fueron detectadas.
